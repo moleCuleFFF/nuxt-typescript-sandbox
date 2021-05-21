@@ -1,0 +1,21 @@
+{
+  "name": "codesandbox-nuxt",
+  "version": "1.0.0",
+  "description": "Nuxt starter for CodeSandBox",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt-ts generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/types": "2.15.6",
+    "@nuxt/typescript-build": "2.1.0",
+    "nuxt": "^2.15.0",
+    "nuxt-i18n": "6.27.0",
+    "nuxt-property-decorator": "2.9.1"
+  }
+}
